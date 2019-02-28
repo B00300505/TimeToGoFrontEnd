@@ -1,0 +1,77 @@
+#homepage, #searchpage, #flightpage, #otherpage, #loginpage, #profilepage {
+	background-color: #D8D8D8;	
+}
+
+
+#header {
+	width:100%;
+	background-color: #95B3D7;
+}
+
+#main {
+	width:100%;
+	background-color: #D8D8D8;
+	margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4, p {
+	color: black;
+	text-shadow: none;
+}
+
+a {
+	color: black !important;
+	text-shadow: none !important;
+}
+
+
+#space15 {
+	float:left;
+	width:15%;
+	height:10px;
+}
+
+#space25 {
+	float:left;
+	width:25%;
+	height:83.88px;
+	background-color: #95B3D7;
+}
+
+#title {
+	float:left;
+	width:50%;
+	background-color: #95B3D7;
+}
+
+#button, #NavButton {
+	border: none;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	border-radius: 50%;
+}
+
+#NavButton {
+	width: 90px;
+	height: 90px;
+}
+
+#navbar1, #navbar2, #navbar3, #navbar4, #navbar5, #navbar6  {
+	position: absolute;
+	top: 83.88px; 
+	right: 0px;
+	width:30%;
+	background-color: #969696;
+	opacity: 0.9;
+	border-radius: 60px 0px 0px 60px;
+}
+
+#loginForm {
+	background-color: #ffffff;
+	float:left;
+	width: 70%;
+}
+
+
