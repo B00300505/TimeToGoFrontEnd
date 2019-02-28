@@ -67,6 +67,7 @@ function navBarSwitch(){
 	const navBarDiv3 = document.getElementById("navbarLoginProfile3");
 	const navBarDiv4 = document.getElementById("navbarLoginProfile4");
 	const navBarDiv5 = document.getElementById("navbarLoginProfile5");
+	const navBarDiv6 = document.getElementById("navbarLoginProfile6");
 	
 	var user = authContext.getCachedUser();
 	if (user) { //Checks if user is logged in
@@ -75,11 +76,13 @@ function navBarSwitch(){
 		navBarDiv3.href = "#profilepage"
 		navBarDiv4.href = "#profilepage"
 		navBarDiv5.href = "#profilepage"
+		navBarDiv6.href = "#profilepage"
 	} else {
 		navBarDiv1.href = "#loginpage";
 		navBarDiv2.href = "#loginpage"
 		navBarDiv3.href = "#loginpage"
 		navBarDiv4.href = "#loginpage"
 		navBarDiv5.href = "#loginpage"
+		navBarDiv6.href = "#loginpage"
 	}
 }
