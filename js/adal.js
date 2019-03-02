@@ -118,7 +118,7 @@ var AuthenticationContext = (function () {
         AuthenticationContext.prototype._singletonInstance = this;
 
         // public
-        this.instance = 'https://login.microsoftonline.com/';
+        this.instance = 'https://login.microsoftonline.com/common/oauth2/v2.0/authorize';
         this.config = {};
         this.callback = null;
         this.popUp = false;
