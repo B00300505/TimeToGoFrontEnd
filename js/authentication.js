@@ -6,7 +6,7 @@ window.config = {
         tenant: 'DSPTimeToGo.onmicrosoft.com',
         clientId: 'c7b75b88-b485-4061-baca-dfa6fabedcb6',
         postLogoutRedirectUri: window.location.origin,
-        cacheLocation: 'localStorage' // enable this for IE, as sessionStorage does not work for localhost.
+        cacheLocation: 'localStorage', // enable this for IE, as sessionStorage does not work for localhost.
 	localLoginUrl: 'https://dsptimetogo.azurewebsites.net/.auth/login/google'
 };
 var authContext = new AuthenticationContext(config);
