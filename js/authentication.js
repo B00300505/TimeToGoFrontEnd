@@ -2,7 +2,7 @@
 
 // Enter Global Config Values & Instantiate ADAL AuthenticationContext
 window.config = {
-        instance: 'https://login.microsoftonline.com/common/oauth2/v2.0/authorize',
+        instance: 'https://login.microsoftonline.com/',
         tenant: 'DSPTimeToGo.onmicrosoft.com',
         clientId: 'c7b75b88-b485-4061-baca-dfa6fabedcb6',
         postLogoutRedirectUri: window.location.origin,

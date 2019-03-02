@@ -5,12 +5,28 @@ window.onload = function(){
 
 
 //Show or Hide the nav bar
-function navBarScript(navbar) {
-	var x = document.getElementById(navbar);
-	if (x.style.display === "none") {
-		x.style.display = "block";
+function navBarScript() {
+	const navBarDiv1 = document.getElementById("navbar1");
+	const navBarDiv2 = document.getElementById("navbar2");
+	const navBarDiv3 = document.getElementById("navbar3");
+	const navBarDiv4 = document.getElementById("navbar4");
+	const navBarDiv5 = document.getElementById("navbar5");
+	const navBarDiv6 = document.getElementById("navbar6");
+
+	if (navBarDiv1.style.display === "none") {
+		navBarDiv1.style.display = "block";
+		navBarDiv2.style.display = "block";
+		navBarDiv3.style.display = "block";
+		navBarDiv4.style.display = "block";
+		navBarDiv5.style.display = "block";
+		navBarDiv6.style.display = "block";
 	} else {
-		x.style.display = "none";
+		navBarDiv1.style.display = "none";
+		navBarDiv2.style.display = "none";
+		navBarDiv3.style.display = "none";
+		navBarDiv4.style.display = "none";
+		navBarDiv5.style.display = "none";
+		navBarDiv6.style.display = "none";
 	}
 };
 

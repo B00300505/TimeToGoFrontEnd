@@ -118,7 +118,7 @@ var AuthenticationContext = (function () {
         AuthenticationContext.prototype._singletonInstance = this;
 
         // public
-        this.instance = 'https://login.microsoftonline.com/common/oauth2/v2.0/authorize';
+        this.instance = 'https://login.microsoftonline.com/';
         this.config = {};
         this.callback = null;
         this.popUp = false;
@@ -1382,7 +1382,7 @@ var AuthenticationContext = (function () {
             tenant = this.config.tenant;
         }
 
-        var urlNavigate = this.instance + this._serialize(responseType, this.config, resource) + this._addLibMetadata();
+        var urlNavigate = this.instance + tenant + '/oauth2/authorize' + this._serialize(responseType, this.config, resource) + this._addLibMetadata();
         this.info('Navigate url:' + urlNavigate);
         return urlNavigate;
     };
