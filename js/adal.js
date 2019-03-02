@@ -39,7 +39,6 @@ var AuthenticationContext = (function () {
      *  @property {string} correlationId Unique identifier used to map the request with the response. Defaults to RFC4122 version 4 guid (128 bits).
      *  @property {number} loadFrameTimeout The number of milliseconds of inactivity before a token renewal response from AAD should be considered timed out.
      */
-    @property {string} instance = https://login.microsoftonline.com/common/v2.0/.well-known/openid-configuration
 
     /**
      * Creates a new AuthenticationContext object.
