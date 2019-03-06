@@ -86,10 +86,10 @@ function getFlights(){
 function loadFlight(){
 	var flightcode = document.getElementById("flightOptions").value;
 	
-	var scheduledArrivalTime = new Date("Mar 1, 2019 15:00:00")
-	var scheduledArrivalTime = new Date("Mar 1, 2019 14:30:00")
+	var scheduledArrivalTime = new Date("May 20, 2019 15:00:00")
+	var predictedArrivalTime = new Date("May 20, 2019 14:30:00")
 	
-	searchedFlight = new flightClass("", "Flight NY to GB", "Swift Airlines", "New York", "Glasgow", 55.8690774, -4.4372416, scheduledArrivalTime, scheduledArrivalTime, "Just some directions");
+	searchedFlight = new flightClass("", "Flight NY to GB", "Swift Airlines", "New York", "Glasgow", 55.8690774, -4.4372416, scheduledArrivalTime, predictedArrivalTime, "Just some directions");
 	
 	searchedFlight.loadFlight();
 	
