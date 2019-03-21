@@ -31,7 +31,6 @@ function loadSavedFlights() {
 	for(i in timerScript){
 		if(i != "flightTimer"){
 			clearInterval(timerScript[i]);
-			console.log(i)
 		}
 	}
 	
@@ -76,7 +75,6 @@ function uploadFlights(){
 		
 		
 		for(i in flights){
-			console.log(flights[i])
 			firebase.database().ref('savedFlights/' + user.uid+'/Flights/'+flights[i].flightCode).set({
 					name: flights[i].name,
 					companyName: flights[i].companyName,
